@@ -4,7 +4,7 @@
 
 ![f1 second](https://github.com/user-attachments/assets/10871fd3-83ef-44cd-8c5e-f56473c31c74)
 
-The dataset was imported through data scraping, and Python libraries such asOpenCV, TensorFlow, numpy, and matplotlib were used for preprocessing and normalization.Then a Convolutional Neural Network (CNN) model was built to analyze and predict outcomes based on the image data.
+The images data of 5 drivers ( Lewis Hamilton, Max Verstappen, Charles Leclerc, Alex Albon, Zhou Guanyu) were imported through data scraping, and Python libraries such asOpenCV, TensorFlow, numpy, and matplotlib were used for preprocessing and normalization.Then a Convolutional Neural Network (CNN) model was built to analyze and predict outcomes based on the image data.
 
 Next, A Python Flask server was developed to integrate the trained CNN model, enabling it to handle HTTP requests. This server processed incoming requests efficiently, providing  predictions based on the input data.
 
